@@ -1,0 +1,27 @@
+{
+    "name": "harry-karwal/Timezone44",
+    "description": "Timezone plugin for CakePHP 3",
+    "keywords":[
+        "cakephp",
+        "authenticate"
+    ],
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Timezone\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Timezone\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
